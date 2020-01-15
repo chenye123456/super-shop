@@ -37,11 +37,11 @@ public class UserController {
                 return "redirect:login.html";
             }
             if (currentUser.isAuthenticated()) {
-                return "index";
+                return "redirect:toindex?uaccount="+currentUser.getPrincipal();
             }
 
         }
-        return "index";
+        return "redirect:toindex";
     }
 
 

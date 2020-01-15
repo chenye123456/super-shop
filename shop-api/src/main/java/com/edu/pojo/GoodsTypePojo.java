@@ -10,7 +10,7 @@ public class GoodsTypePojo implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int tid;
     private String tname;
-
+    private int pid;
     public int getTid() {
         return tid;
     }
@@ -25,5 +25,13 @@ public class GoodsTypePojo implements Serializable {
 
     public void setTname(String tname) {
         this.tname = tname;
+    }
+
+    public int getPid() {
+        return pid;
+    }
+
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 }

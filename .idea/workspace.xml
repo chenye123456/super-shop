@@ -1,9 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop-user:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="">
+    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题">
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsTypePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/MessagePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderDetailPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/UserPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/shop-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/HikariCP-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-launcher-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjrt-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjweaver-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/byte-buddy-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/c3p0-0.9.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cas-client-core-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cglib-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-email-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-math3-3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-client-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-framework-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/druid-1.1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-autoconfigure-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-starter-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-core-2.6.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-core-5.4.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-annotations-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.persistence-api-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.transaction-api-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.mail-1.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.10.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/pagehelper-5.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/poi-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/quartz-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cas-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-ehcache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-log4j12-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aspects-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-aop-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-data-jpa-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-jdbc-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-commons-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-jpa-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-orm-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/zookeeper-3.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +208,13 @@
       </set>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1WNPzEkKmv4OIthK4Dy8h1wHN41" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -42,6 +225,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,7 +245,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopGoodsApplication">
+  <component name="RunManager" selected="Spring Boot.ShopWebApplication">
     <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-details" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopDetailsApplication" />
@@ -94,13 +281,102 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="shop-user:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_super-shop_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51007" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop-user:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShopDetailsApplication" />
+      <item itemvalue="Spring Boot.ShopGoodsApplication" />
+      <item itemvalue="Spring Boot.ShopOrderApplication" />
+      <item itemvalue="Spring Boot.ShopShopcarApplication" />
+      <item itemvalue="Spring Boot.ShopWebApplication" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.097402595" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -120,6 +396,7 @@
       <workItem from="1578987343202" duration="2096000" />
       <workItem from="1578989783613" duration="36000" />
       <workItem from="1578990554243" duration="10811000" />
+      <workItem from="1579071844115" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -156,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579002289716</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="页面的显示问题解决以及shiro rememberme的问题">
+      <created>1579071920192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579071920192</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,21 +453,27 @@
     <MESSAGE value="架构" />
     <MESSAGE value="公共实体类" />
     <MESSAGE value="生活用品商城" />
-    <option name="LAST_COMMIT_MESSAGE" value="生活用品商城" />
+    <MESSAGE value="页面的显示问题解决" />
+    <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面的显示问题解决以及shiro rememberme的问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1578994000354">
+    <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578994000354" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579072155618" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579060090295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579060090295" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579006818791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579006818791" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1579008722640">
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579071914973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579008722640" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579071914973" />
     <state x="803" y="420" key="Gitee.ShareDialog" timestamp="1578990892469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,6 +486,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
+    <state width="938" height="368" key="GridCell.Tab.0.bottom" timestamp="1579072094427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094427" />
+    <state width="938" height="368" key="GridCell.Tab.0.center" timestamp="1579072094426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="368" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="938" height="368" key="GridCell.Tab.0.left" timestamp="1579072094426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="368" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="938" height="368" key="GridCell.Tab.0.right" timestamp="1579072094426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="368" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="1877" height="368" key="GridCell.Tab.1.bottom" timestamp="1579071817620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.center" timestamp="1579071817620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.left" timestamp="1579071817620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.right" timestamp="1579071817620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1667" height="282" key="GridCell.Tab.2.bottom" timestamp="1579071816168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.center" timestamp="1579071816168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.left" timestamp="1579071816168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.right" timestamp="1579071816168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578989819982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,18 +542,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579008753978">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579072111705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579008753978" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578993621460">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072111705" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579072133392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578993621460" />
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579008742174">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072133392" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579072148128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579008742174" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579072148128" />
     <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
