@@ -20,6 +20,11 @@ public class GoodsServiceImpl implements IGoodsService {
     }
 
     @Override
+    public List<GoodsPojo> queryGoodsAll() {
+        return null;
+    }
+
+    @Override
     public GoodsPojo findGoodsPojoByGid(int gid) {
         return goodsRepository.findGoodsPojoByGid(gid);
     }
