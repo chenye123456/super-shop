@@ -12,6 +12,8 @@ dubbo:
     address: 127.0.0.1:2181
   protocol:
     port: 20881
+  provider:
+    timeout: 999999
 
 
 spring:
