@@ -13,7 +13,7 @@ public class GoodsPojo implements Serializable {
     private String gimage;  //图片
     private double gprice; //价格
     private int gstock; //库存
-    private int gtype; //商品类型
+    private Integer gtype; //商品类型
     private int gclass; //0.推荐商品1.促销商品
     //private int pageNum; //当前页
     //private int pageSize; //显示多少条记录
@@ -51,11 +51,11 @@ public class GoodsPojo implements Serializable {
 
 
 
-    public int getGtype() {
+    public Integer getGtype() {
         return gtype;
     }
 
-    public void setGtype(int gtype) {
+    public void setGtype(Integer gtype) {
         this.gtype = gtype;
     }
 
