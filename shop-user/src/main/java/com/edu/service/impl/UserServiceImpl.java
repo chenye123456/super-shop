@@ -13,13 +13,16 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     UserMapper userMapper;
 
+
     @Override
-    public UserPojo queryUserByUname(String uname) {
-        return userMapper.queryUserByUname(uname);
+    public UserPojo queryUserByAccount(String account) {
+        UserPojo userPojo= userMapper.queryUserByAccount(account);
+        return userPojo;
     }
 
     @Override
     public int insertUser(UserPojo userPojo) {
         return userMapper.insertUser(userPojo);
     }
+
 }

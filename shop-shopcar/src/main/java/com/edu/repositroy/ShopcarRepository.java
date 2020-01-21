@@ -8,8 +8,8 @@ import java.util.List;
 
 public interface ShopcarRepository extends JpaRepository<ShopCartPojo,Integer> {
 
-    //根据用户id查询当前用户在购物车列表中一共有哪些商品
-    public List<ShopCartPojo> queryAllByUid(int uid);
+    //根据账户名查询当前用户在购物车列表中一共有哪些商品
+    public List<ShopCartPojo> queryAllByUaccount(String uaccount);
 
     //根据cid删除购物车里的商品
     public int deleteShopCartPojoByCid(int cid);

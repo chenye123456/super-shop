@@ -4,7 +4,8 @@ package com.edu.service;
 import com.edu.pojo.UserPojo;
 
 public interface IUserService {
-    public UserPojo queryUserByUname(String uname);
+    public UserPojo queryUserByAccount(String account);
 
     public int insertUser(UserPojo userPojo);
+
 }

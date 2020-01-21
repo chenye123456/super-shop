@@ -7,17 +7,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587f2b7a-27ee-475b-9f0e-1f3d8e86ec88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/imp;/impl/DetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/impl/DetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/ShopCartPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/ShopCartPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/service/IShopCarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/service/IShopCarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/META-INF/shop-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IShopCarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IShopCarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/target/classes/META-INF/shop-goods.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-shopcar/src/main/java/com/edu/repositroy/ShopcarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-shopcar/src/main/java/com/edu/repositroy/ShopcarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-shopcar/src/main/java/com/edu/service/imp/ShopCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-shopcar/src/main/java/com/edu/service/impl/ShopCarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-shopcar/target/classes/com/edu/repositroy/ShopcarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-shopcar/target/classes/com/edu/repositroy/ShopcarRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-shopcar/target/classes/com/edu/service/ShopCarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/com/edu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/spring-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/spring-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/test/resources/spring-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/web/DetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/web/DetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/web/ShopCarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/web/ShopCarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/DetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/DetailsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/ShopCarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/ShopCarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,17 +116,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-api/src/main/java/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15445544" />
+    <property name="project.structure.side.proportion" value="0.1641791" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.splitter.proportion" value="0.24580455" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,10 +135,23 @@
       <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu\service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xdtc\Desktop\aaa\super-shop\shop-api\target" />
       <recent name="E:\Project\super-shop\shop-api\src\main\java\service" />
       <recent name="E:\Project\super-shop\shop-api\src\main\java\com\edu\pojo" />
       <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
     <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -125,15 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="shop-user:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/user" />
+            <option name="CONTEXT_PATH" value="/sh" />
           </settings>
         </artifact>
       </deployment>
@@ -209,35 +270,12 @@
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.097402595" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+      <changelist id="587f2b7a-27ee-475b-9f0e-1f3d8e86ec88" name="Default Changelist" comment="" />
       <created>1578987340001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -246,6 +284,14 @@
       <workItem from="1578989783613" duration="36000" />
       <workItem from="1578990554243" duration="10811000" />
       <workItem from="1579071844115" duration="245000" />
+      <workItem from="1579221856515" duration="17760000" />
+      <workItem from="1579243242944" duration="382000" />
+      <workItem from="1579243885827" duration="624000" />
+      <workItem from="1579244586295" duration="2026000" />
+      <workItem from="1579246655065" duration="1131000" />
+      <workItem from="1579248646519" duration="1522000" />
+      <workItem from="1579342181017" duration="4302000" />
+      <workItem from="1579581414055" duration="7055000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -338,11 +384,59 @@
       <option name="project" value="LOCAL" />
       <updated>1579183173851</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="公用API的更新">
+      <created>1579236984462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579236984462</updated>
+    </task>
+    <task id="LOCAL-00015" summary="商品详情业务代码的更新">
+      <created>1579237028745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237028745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加了主页商品类别展示的功能">
+      <created>1579237074668</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237074668</updated>
+    </task>
+    <task id="LOCAL-00017" summary="购物车代码简单更新">
+      <created>1579237103412</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237103412</updated>
+    </task>
+    <task id="LOCAL-00018" summary="主页面的页面展示完成">
+      <created>1579237162770</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237162770</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -360,7 +454,12 @@
     <MESSAGE value="公共pojo和接口的更新" />
     <MESSAGE value="商品详情页的展示以及购物车的初步完成" />
     <MESSAGE value="用户模块的简单修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户模块的简单修改" />
+    <MESSAGE value="公用API的更新" />
+    <MESSAGE value="商品详情业务代码的更新" />
+    <MESSAGE value="增加了主页商品类别展示的功能" />
+    <MESSAGE value="购物车代码简单更新" />
+    <MESSAGE value="主页面的页面展示完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="主页面的页面展示完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
@@ -371,14 +470,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579060090295" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579145037339">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579227404321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579145037339" />
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579183284543">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579227404321" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579237158708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579183284543" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579237158708" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579165528182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,78 +494,82 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1579178648018">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1579241418904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
-    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1579178648017">
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418904" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1579241418904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648017" />
-    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1579178648018">
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418904" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
-    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1579241418905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1667" height="344" key="GridCell.Tab.2.bottom" timestamp="1579176508751">
+    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579241418905" />
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom" timestamp="1579240477996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.center" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579240477996" />
+    <state width="1667" height="344" key="GridCell.Tab.2.center" timestamp="1579240477995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.left" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579240477995" />
+    <state width="1667" height="344" key="GridCell.Tab.2.left" timestamp="1579240477995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.right" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579240477995" />
+    <state width="1667" height="344" key="GridCell.Tab.2.right" timestamp="1579240477995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1579170636498">
+    <state width="1667" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579240477995" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579242119341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579170636498" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579242119341" />
     <state x="701" y="223" key="VCS.ChangeListViewerDialog" timestamp="1578993941416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579179046968">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579237408353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579179046968" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579237408353" />
     <state x="687" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1579139724047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579139724047" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1579225471767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579225471767" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579072133392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072133392" />
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579140415818">
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579237169074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579140415818" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579237169074" />
     <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
