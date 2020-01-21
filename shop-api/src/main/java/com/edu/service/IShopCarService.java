@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface IShopCarService {
 
-    //根据用户id查询当前用户在购物车列表中一共有哪些商品
-    public List<ShopCartPojo> queryAllByUid(int uid);
+    //根据账户名查询当前用户在购物车列表中一共有哪些商品
+    public List<ShopCartPojo> queryAllByUaccount(String uaccount);
 
     //添加购物车
     public boolean addShopCar(ShopCartPojo shopCartPojo);

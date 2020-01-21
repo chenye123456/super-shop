@@ -4,7 +4,7 @@
 				"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.edu.mapper.UserMapper">
 
-	    <select id="queryUserByUname" resultType="UserPojo" >
+	    <select id="queryUserByAccount" resultType="UserPojo" >
 			SELECT * FROM shop_user where uaccount=#{xxx}
 		</select>
 

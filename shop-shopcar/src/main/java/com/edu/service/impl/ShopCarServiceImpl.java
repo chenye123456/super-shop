@@ -1,7 +1,8 @@
-package com.edu.service;
+package com.edu.service.impl;
 
 import com.edu.pojo.ShopCartPojo;
 import com.edu.repositroy.ShopcarRepository;
+import com.edu.service.IShopCarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,53 +16,54 @@ public class ShopCarServiceImpl implements IShopCarService {
     ShopcarRepository shopcarRepository;
 
     //根据用户uid去购物车数据库中查询有该用户有哪些商品
+
+
     @Override
-    public List<ShopCartPojo> queryAllByUid(int uid) {
-        return shopcarRepository.queryAllByUid(uid);
+    public List<ShopCartPojo> queryAllByUaccount(String uaccount) {
+        return shopcarRepository.queryAllByUaccount(uaccount);
     }
 
-    //增加购物车商品,如果该用户的购物车中没有这个商品,则增加进去,如果有
+    //把某个商品添加到购物车,如果该用户的购物车中没有这个商品,则增加进去,如果有
     //这个商品,就在商品的数量上面加一即可
     @Override
     public boolean addShopCar(ShopCartPojo shopCartPojo) {
 
         //根据用户uid查询用户在购物车中有哪些商品
-        List<ShopCartPojo> shopList=queryAllByUid(shopCartPojo.getUid());
+        List<ShopCartPojo> shopList=queryAllByUaccount(shopCartPojo.getUaccount());
 
         //如果查出来的结果为0,说明该用户的购物车中没有任何商品
         if (shopList.size()==0){
             shopcarRepository.save(shopCartPojo);
             return true;
         }
-        //num用来对比循环了多少次
+
         int num=0;
-        for (ShopCartPojo ss:shopList) {
-            if(ss.getGid()==shopCartPojo.getGid()){
-                break;
+        for (ShopCartPojo shopGood:shopList) {
+            //如果gid相同,说明这个商品在购物车中已经存在
+            if(shopGood.getGid()==shopCartPojo.getGid()){
+
+                //把购物车中的该商品数量,和本次商品的数量加到一起,变成一个新的商品数量
+                shopCartPojo.setCnum(shopCartPojo.getCnum()+shopGood.getCnum());
+
+                //删除原商品
+                shopcarRepository.delete(shopGood);
+
+                //把新的商品信息存入到购物车的数据库中
+                shopcarRepository.save(shopCartPojo);
+
+                return true;
             }
             num++;
         }
-        //如果num等于shopList.size(),说明用户的购物车中没有该商品
+
+        //如果num等于购物车中该用户的所有商品数量,说明用户的购物车
+        //数量不为空,并且没有该商品,那么直接把商品存入到购物车中即可
         if(num==shopList.size()){
             shopcarRepository.save(shopCartPojo);
             return true;
         }
 
-        //n代表该商品在购物车里的数量
-        int n=0;
-        //如果num的值小于shopList.size()的话,说明该商品在购物车中已经存在
-        //先从购物车里拿出商品的数量
-        n=shopList.get(num).getCnum();
-
-        n=shopCartPojo.getCnum()+n;
-        shopCartPojo.setCnum(n);
-
-        //根据cid删除这个商品
-        shopcarRepository.deleteShopCartPojoByCid(shopList.get(num).getCid());
-        //再把新的商品加入到购物车里面去
-        shopcarRepository.save(shopCartPojo);
-
-        return true;
+        return false;
     }
 
     //根据cid删除购物车里的商品

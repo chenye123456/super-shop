@@ -29,7 +29,9 @@ public class ShiroRealm extends AuthorizingRealm {
 
         UsernamePasswordToken user = (UsernamePasswordToken)token;
 
-        UserPojo userPojo1=iUserService.queryUserByUname(user.getUsername());
+
+
+        UserPojo userPojo1=iUserService.queryUserByAccount(user.getUsername());
 
         if(null == userPojo1){ //用户为空
             throw new UnknownAccountException("用户为空");

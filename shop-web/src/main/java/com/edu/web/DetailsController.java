@@ -10,7 +10,7 @@ import com.edu.service.DetailsService;
 @Controller
 public class DetailsController {
 
-    @Reference
+    @Reference(check = false)
     DetailsService detailsService;
 
 
