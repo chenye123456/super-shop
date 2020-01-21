@@ -11,7 +11,8 @@ dubbo:
     address: 127.0.0.1:2181
   protocol:
     port: 20810
-
+  provider:
+    timeout: 999999
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

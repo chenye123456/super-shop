@@ -1,0 +1,25 @@
+
+server:
+  port: 8006
+  servlet:
+    context-path: /web
+
+dubbo:
+  application:
+    name: boot-web
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    port: 20886
+
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+
+
+
+

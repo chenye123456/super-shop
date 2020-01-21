@@ -1,0 +1,23 @@
+
+server:
+  port: 8003
+  servlet:
+    context-path: /shopcar
+
+dubbo:
+  application:
+    name: boot-shopcar
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    port: 20803
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/17_shop?serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect

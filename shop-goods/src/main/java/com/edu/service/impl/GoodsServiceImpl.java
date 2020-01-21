@@ -1,10 +1,10 @@
-package com.edu.service;
+package com.edu.service.impl;
 
 import com.edu.pojo.GoodsPojo;
 import com.edu.repository.GoodsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.IGoodsService;
+import com.edu.service.IGoodsService;
 
 import java.util.List;
 @Service
@@ -22,6 +22,11 @@ public class GoodsServiceImpl implements IGoodsService {
     @Override
     public List<GoodsPojo> queryGoodsAll() {
         return null;
+    }
+    //根据类别查询商品
+    @Override
+    public List<GoodsPojo> findAllByGtype(int gtype) {
+        return goodsRepository.findAllByGtype(gtype);
     }
 
     @Override

@@ -6,8 +6,8 @@ import com.edu.pojo.ShopCartPojo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import service.IGoodsService;
-import service.IShopCarService;
+import com.edu.service.IGoodsService;
+import com.edu.service.IShopCarService;
 
 @Controller
 public class ShopCarController {

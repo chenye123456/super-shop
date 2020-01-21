@@ -5,7 +5,7 @@ import com.edu.pojo.GoodsPojo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import service.DetailsService;
+import com.edu.service.DetailsService;
 
 @Controller
 public class DetailsController {

@@ -12,7 +12,8 @@ dubbo:
     address: 127.0.0.1:2181
   protocol:
     port: 20886
-
+  consumer:
+    timeout: 999999
 spring:
   thymeleaf:
     mode: HTML

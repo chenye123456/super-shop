@@ -1,0 +1,22 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /goods
+
+dubbo:
+  application:
+    name: boot-goods
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    port: 20810
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/17_shop
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect

@@ -4,7 +4,7 @@ import com.edu.pojo.GoodsPojo;
 import com.edu.repository.DetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.DetailsService;
+import com.edu.service.DetailsService;
 
 @Service
 @com.alibaba.dubbo.config.annotation.Service
