@@ -159,29 +159,41 @@
      <th width="135">总金额</th>
      <th>操作</th>
     </tr>
-    <tr>
-     <td><input type="checkbox" /></td>
-     <td>
-      <dl>
-       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>
-       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>
-       <div class="clears"></div>
-      </dl>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td>
-     <div class="jia_jian">
-      <img src="images/jian.jpg}" width="21" height="25" class="jian" />
-      <input type="text" class="shuliang" value="1" />
-      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />
-     </div>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>
+
+    <tr th:each="shopCar:${list}">
+     <td><input type="checkbox" name="checkAll" th:value="@{${shopCar.gid}}"/></td>
+     <td><img th:src="@{${shopCar.gimage}}" width="85" height="85" /></td>
+     <td th:text="${shopCar.gprice}"></td>
+     <td th:text="${shopCar.cnum}"></td>
+     <td th:text="${shopCar.ctotal}"></td>
+     <td><a href="javascript:void(0)" onclick="add(this)" th:cid="${shopCar.cid}">增加</a><br />
+         <a href="javascript:void(0)" onclick="reduce(this)" th:cid="${shopCar.cid}">减少</a>
+      <a href="javascript:void(0)" onclick="deleteOne(this)" th:cid="${shopCar.cid}">删除</a></td>
     </tr>
 
+<!--    <tr>-->
+<!--     <td><input type="checkbox" /></td>-->
+<!--     <td>-->
+<!--      <dl>-->
+<!--       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>-->
+<!--       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>-->
+<!--       <div class="clears"></div>-->
+<!--      </dl>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td>-->
+<!--     <div class="jia_jian">-->
+<!--      <img src="images/jian.jpg}" width="21" height="25" class="jian" />-->
+<!--      <input type="text" class="shuliang" value="1" />-->
+<!--      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />-->
+<!--     </div>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>-->
+<!--    </tr>-->
+
     <tr>
-     <td colspan="6"><div class="shanchu"><img th:src="@{/images/lajio.jpg}" /> 全部删除</div></td>
+     <td colspan="6"><div class="shanchu" onclick="deleteAll()" ><img th:src="@{/images/lajio.jpg}" /> 全部删除</div></td>
     </tr>
    </table><!--orderList/-->
    <div class="zongji">
@@ -189,7 +201,7 @@
    </div><!--zongji/-->
    <div class="jiesuan">
     <a href="product.html" class="jie_1">继续购物&gt;&gt;</a>
-    <a href="order2.html" class="jie_2">立即结算&gt;&gt;</a>
+    <a href="javascript:void(0)" class="jie_2" onclick="jiesuan()">立即结算&gt;&gt;</a>
     <div class="clears"></div>
    </div><!--jiesuan/-->
    <div class="clears"></div>
@@ -241,4 +253,81 @@
  </div><!--mianCont/-->
  <a href="#" class="backTop">&nbsp;</a>
 </body>
+   <script>
+    <!--购物车中商品数量加一-->
+     function add(objInfo) {
+        var cid=$(objInfo).attr("cid");
+
+        $.ajax({
+              type:"post",
+              url:"addOne",
+              data:{"cid":cid},
+              success(data){
+               location.reload();
+              }
+      })
+     }
+
+      <!--购物车中数量减少-->
+     function reduce(objInfo) {
+         var cid=$(objInfo).attr("cid");
+
+         $.ajax({
+               type: "post",
+               url: "reduceOne",
+               data: {"cid":cid},
+               success(data) {
+                location.reload();
+               }
+         })
+     }
+
+    <!--删除购物车中某个商品-->
+     function deleteOne(objInfo) {
+      var cid=$(objInfo).attr("cid");
+
+      $.ajax({
+       type: "post",
+       url: "deleteOne",
+       data: {"cid":cid},
+       success(data) {
+        location.reload();
+       }
+      })
+     }
+
+     function deleteAll() {
+
+      var msg = "您确定要删除所有商品吗？";
+      if (confirm(msg)==true){
+       $.ajax({
+        type: "post",
+        url: "deleteAll",
+        success(data) {
+         location.reload();
+        }
+       })
+      }else{
+       return false;
+      }
+
+     }
+     
+     function jiesuan() {
+       obj = document.getElementsByName("checkAll");
+       check_val = [];
+       for(k in obj){
+        if(obj[k].checked)
+         check_val.push(obj[k].value);
+       }
+       alert(check_val);
+      window.location.href = "ToSureBuy?checked="+check_val;
+
+     }
+
+
+
+
+   </script>
+
 </html>

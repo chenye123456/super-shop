@@ -49,7 +49,7 @@
                 <img th:src="@{/images/gouimg.png}" width="19" height="20" style="position:relative;top:6px;" />&nbsp;|&nbsp;
                 <strong class="red">0</strong>&nbsp;件&nbsp;|
                 <strong class="red">￥ 0.00</strong>
-                <a href="order.html">去结算</a> <img th:src="@{/images/youjian.jpg}" width="5" height="8" />
+                <a href="ToShopCar">去结算</a> <img th:src="@{/images/youjian.jpg}" width="5" height="8" />
             </div><!--gouCar/-->
             <div class="myChunlv">
                 <a href="vip.html"><img th:src="@{/images/mychunlv.jpg}" width="112" height="34" /></a>
@@ -268,8 +268,8 @@
             type:"post",
             url:"addShopCar",
             data: {"gid":gid},
-            success:function (d) {
-                alert(d)
+            success:function (data) {
+                alert(data)
             }
         })
 

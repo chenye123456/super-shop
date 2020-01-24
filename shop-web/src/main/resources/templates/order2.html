@@ -258,95 +258,102 @@
   <h4 class="orderTitle">购物清单</h4>
   <table class="orderList">
     <tr>
-     <th width="20"></th>
+     <!--<th width="20"></th>-->
      <th width="430">商品</th>
      <th width="135">单价</th>
      <th width="135">数量</th>
      <th width="135">总金额</th>
      <th>操作</th>
     </tr>
+<!--    <tr>-->
+<!--     <td><input type="checkbox" /></td>-->
+<!--     <td>-->
+<!--      <dl>-->
+<!--       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>-->
+<!--       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>-->
+<!--       <div class="clears"></div>-->
+<!--      </dl>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td>-->
+<!--     <div class="jia_jian">-->
+<!--      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />-->
+<!--      <input type="text" class="shuliang" value="1" />-->
+<!--      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />-->
+<!--     </div>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--     <td><input type="checkbox" /></td>-->
+<!--     <td>-->
+<!--      <dl>-->
+<!--       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>-->
+<!--       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>-->
+<!--       <div class="clears"></div>-->
+<!--      </dl>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td>-->
+<!--     <div class="jia_jian">-->
+<!--      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />-->
+<!--      <input type="text" class="shuliang" value="1" />-->
+<!--      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />-->
+<!--     </div>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--     <td><input type="checkbox" /></td>-->
+<!--     <td>-->
+<!--      <dl>-->
+<!--       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>-->
+<!--       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>-->
+<!--       <div class="clears"></div>-->
+<!--      </dl>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td>-->
+<!--     <div class="jia_jian">-->
+<!--      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />-->
+<!--      <input type="text" class="shuliang" value="1" />-->
+<!--      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />-->
+<!--     </div>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--     <td><input type="checkbox" /></td>-->
+<!--     <td>-->
+<!--      <dl>-->
+<!--       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>-->
+<!--       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>-->
+<!--       <div class="clears"></div>-->
+<!--      </dl>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td>-->
+<!--     <div class="jia_jian">-->
+<!--      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />-->
+<!--      <input type="text" class="shuliang" value="1" />-->
+<!--      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />-->
+<!--     </div>-->
+<!--     </td>-->
+<!--     <td><strong class="red">￥70.20</strong></td>-->
+<!--     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>-->
+<!--    </tr>-->
+   <tr th:each="shopCar:${listChecked}">
+    <td><img name="GetCidAll"  th:cid="${shopCar.cid}"  th:src="@{${shopCar.gimage}}" width="85" height="85" /></td>
+    <td th:text="${shopCar.gprice}"></td>
+    <td th:text="${shopCar.cnum}"></td>
+    <td th:text="${shopCar.ctotal}"></td>
+    <td><a href="javascript:void(0)" onclick="deleteOne(this)" th:cid="${shopCar.cid}">取消购买</a></td>
+   </tr>
     <tr>
-     <td><input type="checkbox" /></td>
-     <td>
-      <dl>
-       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>
-       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>
-       <div class="clears"></div>
-      </dl>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td>
-     <div class="jia_jian">
-      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />
-      <input type="text" class="shuliang" value="1" />
-      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />
-     </div>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>
-    </tr>
-    <tr>
-     <td><input type="checkbox" /></td>
-     <td>
-      <dl>
-       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>
-       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>
-       <div class="clears"></div>
-      </dl>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td>
-     <div class="jia_jian">
-      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />
-      <input type="text" class="shuliang" value="1" />
-      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />
-     </div>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>
-    </tr>
-    <tr>
-     <td><input type="checkbox" /></td>
-     <td>
-      <dl>
-       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>
-       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>
-       <div class="clears"></div>
-      </dl>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td>
-     <div class="jia_jian">
-      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />
-      <input type="text" class="shuliang" value="1" />
-      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />
-     </div>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>
-    </tr>
-    <tr>
-     <td><input type="checkbox" /></td>
-     <td>
-      <dl>
-       <dt><a href="proinfo.html"><img th:src="@{/images/pro1.jpg}" width="85" height="85" /></a></dt>
-       <dd>全球最大的中文搜索引擎、致力于让网民更便捷<br /><span class="red">有货：</span>从上海出发</dd>
-       <div class="clears"></div>
-      </dl>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td>
-     <div class="jia_jian">
-      <img th:src="@{/images/jian.jpg}" width="21" height="25" class="jian" />
-      <input type="text" class="shuliang" value="1" />
-      <img th:src="@{/images/jia.jpg}" width="21" height="25" class="jia" />
-     </div>
-     </td>
-     <td><strong class="red">￥70.20</strong></td>
-     <td><a href="#" class="green">收藏</a><br /><a href="#" class="green">删除</a></td>
-    </tr>
-    <tr>
-     <td colspan="6"><div class="shanchu"><img th:src="@{/images/lajio.jpg}" /> 全部删除</div></td>
+     <td colspan="6"><div class="shanchu"><img th:src="@{/images/lajio.jpg}" /> 全部取消</div></td>
     </tr>
    </table><!--orderList/-->
    <table class="zongjia" align="right">
@@ -368,7 +375,7 @@
     </tr>
     <tr>
      <td colspan="2" style="height:50px;">
-      <a href="success.html"><img th:src="@{/images/tijao.png}" width="142" height="32" /></a>
+      <a href="javascript:void(0)"><img onclick="tijiao()" th:src="@{/images/tijao.png}" width="142" height="32" /></a>
      </td>
     </tr>
    </table><!--zongjia/-->
@@ -421,4 +428,25 @@
  </div><!--mianCont/-->
  <a href="#" class="backTop">&nbsp;</a>
 </body>
+
+<script>
+
+
+
+   function tijiao() {
+    obj = document.getElementsByName("GetCidAll");
+    var checked=[];
+    for (k in obj){
+     var cid=$(obj[k]).attr("cid");
+     if(cid!=null){
+      checked.push(cid);
+     }
+    }
+    window.location.href = "tijiao?checked="+checked;
+
+
+
+   }
+</script>
+
 </html>
