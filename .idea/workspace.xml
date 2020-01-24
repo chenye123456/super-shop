@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="587f2b7a-27ee-475b-9f0e-1f3d8e86ec88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/imp;/impl/DetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/impl/DetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,27 +61,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-api/src/main/java/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-shopcar/src/main/java/com/edu/service/impl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Project\super-shop\shop-user\src\main\java\com\edu\service" />
-      <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu\service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\super-shop\shop-shopcar\src\main\java\com\edu\service\impl" />
       <recent name="E:\Project\super-shop\shop-api\src\main\java\service" />
       <recent name="E:\Project\super-shop\shop-api\src\main\java\com\edu\pojo" />
       <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\super-shop\shop-user\src\main\java\com\edu\service" />
+      <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu\service" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
@@ -220,11 +216,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -237,7 +228,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+      <changelist id="587f2b7a-27ee-475b-9f0e-1f3d8e86ec88" name="Default Changelist" comment="" />
       <created>1578987340001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -246,6 +237,9 @@
       <workItem from="1578989783613" duration="36000" />
       <workItem from="1578990554243" duration="10811000" />
       <workItem from="1579071844115" duration="245000" />
+      <workItem from="1579221856515" duration="22581000" />
+      <workItem from="1579248698229" duration="1439000" />
+      <workItem from="1579581557442" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -338,7 +332,140 @@
       <option name="project" value="LOCAL" />
       <updated>1579183173851</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="公用API的更新">
+      <created>1579236984462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579236984462</updated>
+    </task>
+    <task id="LOCAL-00015" summary="商品详情业务代码的更新">
+      <created>1579237028745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237028745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加了主页商品类别展示的功能">
+      <created>1579237074668</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237074668</updated>
+    </task>
+    <task id="LOCAL-00017" summary="购物车代码简单更新">
+      <created>1579237103412</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237103412</updated>
+    </task>
+    <task id="LOCAL-00018" summary="主页面的页面展示完成">
+      <created>1579237162770</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579237162770</updated>
+    </task>
+    <task id="LOCAL-00019" summary="主页面的页面展示完成">
+      <created>1579243194812</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1579243194812</updated>
+    </task>
+    <task id="LOCAL-00020" summary="修改了gtype字段的类型">
+      <created>1579246941901</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579246941901</updated>
+    </task>
+    <task id="LOCAL-00021" summary="增加dubbo的超时设置">
+      <created>1579246987409</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579246987409</updated>
+    </task>
+    <task id="LOCAL-00022" summary="增加dubbo的超时设置">
+      <created>1579247002675</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1579247002675</updated>
+    </task>
+    <task id="LOCAL-00023" summary="增加dubbo的超时设置">
+      <created>1579247021956</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579247021956</updated>
+    </task>
+    <task id="LOCAL-00024" summary="增加dubbo的超时设置">
+      <created>1579247039254</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579247039254</updated>
+    </task>
+    <task id="LOCAL-00025" summary="购物车以及订单的service接口更新">
+      <created>1579843387259</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843387259</updated>
+    </task>
+    <task id="LOCAL-00026" summary="商品模块配置文件端口号的更新">
+      <created>1579843436739</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843436739</updated>
+    </task>
+    <task id="LOCAL-00027" summary="订单模块的更新">
+      <created>1579843462155</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843462155</updated>
+    </task>
+    <task id="LOCAL-00028" summary="购物车">
+      <created>1579843544431</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843544431</updated>
+    </task>
+    <task id="LOCAL-00029" summary="用户模块">
+      <created>1579843574496</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843574496</updated>
+    </task>
+    <task id="LOCAL-00030" summary="订单及购物车的展示">
+      <created>1579843605859</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843605859</updated>
+    </task>
+    <task id="LOCAL-00031" summary="商品详情">
+      <created>1579843642046</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843642046</updated>
+    </task>
+    <task id="LOCAL-00032" summary="商城">
+      <created>1579843661324</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579843661324</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,37 +475,54 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="架构" />
-    <MESSAGE value="公共实体类" />
     <MESSAGE value="生活用品商城" />
     <MESSAGE value="页面的显示问题解决" />
     <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
-    <MESSAGE value="商品详情" />
     <MESSAGE value="增加goodsPojo中的gclass字段以及查询推荐商品、促销商品的service接口" />
     <MESSAGE value="查询数据库中的推荐商品和促销商品的repository接口和service的实现类" />
     <MESSAGE value="主页面的商品部分展示以及商品详情页的跳转展示" />
     <MESSAGE value="公共pojo和接口的更新" />
     <MESSAGE value="商品详情页的展示以及购物车的初步完成" />
     <MESSAGE value="用户模块的简单修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户模块的简单修改" />
+    <MESSAGE value="公用API的更新" />
+    <MESSAGE value="商品详情业务代码的更新" />
+    <MESSAGE value="增加了主页商品类别展示的功能" />
+    <MESSAGE value="购物车代码简单更新" />
+    <MESSAGE value="主页面的页面展示完成" />
+    <MESSAGE value="修改了gtype字段的类型" />
+    <MESSAGE value="增加dubbo的超时设置" />
+    <MESSAGE value="购物车以及订单的service接口" />
+    <MESSAGE value="购物车以及订单的service接口更新" />
+    <MESSAGE value="商品模块配置文件端口号的更新" />
+    <MESSAGE value="订单模块的更新" />
+    <MESSAGE value="购物车" />
+    <MESSAGE value="用户模块" />
+    <MESSAGE value="订单及购物车的展示" />
+    <MESSAGE value="商品详情" />
+    <MESSAGE value="商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="商城" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579072155618" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579060090295">
+    <state x="552" y="178" key="#Web_Browsers" timestamp="1579250506337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579060090295" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579145037339">
+    <state x="552" y="178" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1579250506337" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579250507318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579145037339" />
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579183284543">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579250507318" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579227404321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579183284543" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579227404321" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579843657408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579843657408" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579165528182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,78 +539,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1579843279509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1579178648018">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579843279509" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1579843279508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
-    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1579178648017">
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579843279508" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1579843279508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648017" />
-    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1579178648018">
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579843279508" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1579843279508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
-    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579843279508" />
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1579245257190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579245257190" />
+    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1579245257189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579245257189" />
+    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1579245257189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1579178648019">
+    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579245257189" />
+    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1579245257190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
-    <state width="1667" height="344" key="GridCell.Tab.2.bottom" timestamp="1579176508751">
+    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579245257190" />
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom" timestamp="1579245173591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.center" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579245173591" />
+    <state width="1667" height="344" key="GridCell.Tab.2.center" timestamp="1579245173590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.left" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579245173590" />
+    <state width="1667" height="344" key="GridCell.Tab.2.left" timestamp="1579245173590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state width="1667" height="344" key="GridCell.Tab.2.right" timestamp="1579176508751">
+    <state width="1667" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579245173590" />
+    <state width="1667" height="344" key="GridCell.Tab.2.right" timestamp="1579245173591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1579170636498">
+    <state width="1667" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579245173591" />
+    <state x="499" y="103" key="SettingsEditor" timestamp="1579247259780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579170636498" />
+    <state x="499" y="103" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579247259780" />
     <state x="701" y="223" key="VCS.ChangeListViewerDialog" timestamp="1578993941416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579179046968">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579843665916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579179046968" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579843665916" />
     <state x="687" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1579139724047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579139724047" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1579225471767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579225471767" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579072133392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072133392" />
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579140415818">
+    <state x="744" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1579843790444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579140415818" />
+    <state x="744" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579843790444" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579843681117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579843681117" />
     <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
