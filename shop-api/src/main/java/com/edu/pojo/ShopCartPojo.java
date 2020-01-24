@@ -8,7 +8,7 @@ public class ShopCartPojo implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int cid;
-    private int uid;
+    private String uaccount;
     private int gid;
     private String gimage;
     private String gname;
@@ -20,16 +20,16 @@ public class ShopCartPojo implements Serializable {
         return cid;
     }
 
-    public void setCid(int cid) {
+    public void setCid(Integer cid) {
         this.cid = cid;
     }
 
-    public int getUid() {
-        return uid;
+    public String getUaccount() {
+        return uaccount;
     }
 
-    public void setUid(int uid) {
-        this.uid = uid;
+    public void setUaccount(String uaccount) {
+        this.uaccount = uaccount;
     }
 
     public int getGid() {
@@ -83,13 +83,27 @@ public class ShopCartPojo implements Serializable {
     public ShopCartPojo() {
     }
 
-    public ShopCartPojo(int uid, int gid, String gimage, String gname, double gprice, int cnum, double ctotal) {
-        this.uid = uid;
+    public ShopCartPojo(String uaccount, int gid, String gimage, String gname, double gprice, int cnum, double ctotal) {
+        this.uaccount = uaccount;
         this.gid = gid;
         this.gimage = gimage;
         this.gname = gname;
         this.gprice = gprice;
         this.cnum = cnum;
         this.ctotal = ctotal;
+    }
+
+    @Override
+    public String toString() {
+        return "ShopCartPojo{" +
+                "cid=" + cid +
+                ", uaccount='" + uaccount + '\'' +
+                ", gid=" + gid +
+                ", gimage='" + gimage + '\'' +
+                ", gname='" + gname + '\'' +
+                ", gprice=" + gprice +
+                ", cnum=" + cnum +
+                ", ctotal=" + ctotal +
+                '}';
     }
 }
