@@ -12,6 +12,10 @@ public class ToPageController {
     public String ToProductPage(){
         return "product";
     }
+    @RequestMapping("ToShopCar")
+    public String ToShopCar(){
+        return "order";
+    }
 
     //index跳转帮助页面
     @RequestMapping("ToHelpPage")

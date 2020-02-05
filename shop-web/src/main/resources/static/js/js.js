@@ -28,7 +28,7 @@ $(function(){
 	})
 
 	$.ajax({
-		url:"queryGoodsByGtype",
+		url:"queryEightGoodsByGtype",
 		dataType:"json",
 		data:{"gtype":"2"},
 		success:function (data) {
@@ -47,7 +47,7 @@ $(function(){
 	})
 
 	$.ajax({
-		url:"queryGoodsByGtype",
+		url:"queryEightGoodsByGtype",
 		dataType:"json",
 		data:{"gtype":"15"},
 		success:function (data) {
@@ -65,7 +65,7 @@ $(function(){
 		}
 	})
 	$.ajax({
-		url:"queryGoodsByGtype",
+		url:"queryEightGoodsByGtype",
 		dataType:"json",
 		data:{"gtype":"22"},
 		success:function (data) {
@@ -136,7 +136,7 @@ $(function(){
 		$("#floor1 .frProList").eq(index2).show().siblings(".frProList").hide();
 		var gtype = $(this).attr("tid");
 		$.ajax({
-			url:"queryGoodsByGtype",
+			url:"queryEightGoodsByGtype",
 			dataType:"json",
 			data:{"gtype":gtype},
 			success:function (data) {
@@ -160,7 +160,7 @@ $(function(){
 		$("#floor2 .frProList").eq(index2).show().siblings(".frProList").hide();
 		var gtype = $(this).attr("tid");
 		$.ajax({
-			url:"queryGoodsByGtype",
+			url:"queryEightGoodsByGtype",
 			dataType:"json",
 			data:{"gtype":gtype},
 			success:function (data) {
@@ -184,7 +184,7 @@ $(function(){
 		$("#floor3 .frProList").eq(index2).show().siblings(".frProList").hide();
 		var gtype = $(this).attr("tid");
 		$.ajax({
-			url:"queryGoodsByGtype",
+			url:"queryEightGoodsByGtype",
 			dataType:"json",
 			data:{"gtype":gtype},
 			success:function (data) {

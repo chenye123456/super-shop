@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -27,6 +28,20 @@ public class GoodsController {
     @ResponseBody
     public List<GoodsPojo> queryGoodsByGtype(int gtype,Model model){
         List<GoodsPojo> goodsByGtype = goodsService.findAllByGtype(gtype);
+        model.addAttribute("goodsByGtype",goodsByGtype);
+        return goodsByGtype;
+    }
+    //首页根据商品类别查询8个商品
+    @RequestMapping("queryEightGoodsByGtype")
+    @ResponseBody
+    public List<GoodsPojo> queryEightGoodsByGtype(int gtype,Model model){
+        List<GoodsPojo> goodsByGtype = new ArrayList<>();
+        List<GoodsPojo> goodsPojos = goodsService.findAllByGtype(gtype);
+        for (int i=0;i<goodsPojos.size();i++){
+            if (i<8){
+                goodsByGtype.add(goodsPojos.get(i));
+            }
+        }
         model.addAttribute("goodsByGtype",goodsByGtype);
         return goodsByGtype;
     }
